@@ -1,0 +1,96 @@
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px white;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: grey;
+
+}
+::-webkit-scrollbar-thumb:active {
+  background: white;
+}
+body{
+  background-image: url("../images/bg.png");
+  color: #FFF;
+  font-family: 'Didact Gothic', sans-serif;
+   letter-spacing: 2px;
+}
+
+.books{
+  width: 25%;
+  height: 700px;
+  position: relative;
+  right: 32%;
+  top:  100px;;
+}
+
+.content{
+  width: 50%;
+  height: 570px;
+  position: relative;
+  bottom: 500px;
+  left: 15%;
+}
+
+/* CONTENT TEXT SECTION*/
+.content-text{
+  width: 60%;
+  height: 500px;
+  position: relative;
+  left: 20%;
+  background: rgb(255,255,255);
+  background: linear-gradient(68deg, rgba(255,255,255,0) 41%, rgba(11,11,11,1) 87%);
+  z-index: 1;
+  -webkit-box-shadow: 15px 9px 13px -3px rgba(0,0,0,0.69);
+box-shadow: 15px 9px 13px -3px rgba(0,0,0,0.69);
+padding-top: 20px;
+overflow-y: auto;
+ overflow-x: hidden;
+ text-overflow:inherit;
+}
+
+
+.content-text-2{
+  position: absolute;
+  bottom: -2px;
+  left:  40%;
+  z-index: 0;
+  background: rgb(255,255,255);
+  background: linear-gradient(68deg, rgba(255,255,255,0) 41%, rgba(17,17,17,1) 100%);
+}
+
+
+.book-icon{
+  transform: scale(0.2);
+  position:relative;
+  right: 49%;
+  bottom: 250px;
+}
+.book-cover{
+  transform: scale(0.6);
+  position: absolute;
+  top: -70px;
+  right: 52%;
+}
+.content-hr{
+  width: 60%;
+  position: relative;
+  left: 40%;
+
+}
+.page{
+  transform: scale(0.3);
+}
+
+.pages{
+  margin:0;
+  padding: 0;
+  height: 200px;
+  position: relative;
+  bottom:65px;
+  left: 35%;
+}
