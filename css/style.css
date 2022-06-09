@@ -19,6 +19,12 @@ body{
   font-family: 'Didact Gothic', sans-serif;
    letter-spacing: 2px;
 }
+.hunter-icon{
+  position: absolute;
+  bottom: 200px;
+  left: 55%;
+transform: scale(1.4);
+}
 
 /* Header */
 .navbar{
@@ -26,6 +32,13 @@ background-color: #E04D01;
 border-bottom: 20px solid #FF7700;
 position: relative;
 height: 60px;
+}
+
+/* Buttons */
+.destiny-btn{
+  background: transparent;
+  color: white;
+  border-color: white;
 }
 .books{
   width: 25%;
@@ -73,33 +86,30 @@ overflow-y: auto;
 
 /* Books */
 .book-icon{
-  transform: scale(0.2);
+  top: 2rem;
   position:relative;
-  right: 49%;
-  bottom: 250px;
   transition: all .2s ease-in-out;
 }
 .book-icon-2{
-  transform: scale(0.2);
+  top: 2rem;
   position:relative;
   transition: all .2s ease-in-out;
-  bottom:979px;
-  right: 15%;
+  left: 1rem;
 }
 
 /* Book icon hovers */
 .book-icon:hover{
-  transform: scale(0.25);
+  transform: scale(1.25);
 }
 
 .book-icon-2:hover{
-  transform: scale(0.25);
+  transform: scale(1.25);
 }
 .book-cover{
-  transform: scale(0.6);
+  transform: scale(2);
   position: absolute;
-  top: -70px;
-  right: 52%;
+  top: 250px;
+  right: 80%;
 }
 .content-hr{
   width: 60%;
