@@ -1,3 +1,4 @@
+/* grey page color #868585 /
 /* CUSTOM SCROLLBAR */
 ::-webkit-scrollbar {
   width: 5px;
@@ -20,6 +21,13 @@ body{
    letter-spacing: 2px;
 }
 
+/* Header */
+.navbar{
+background-color: #E04D01;
+border-bottom: 20px solid #FF7700;
+position: relative;
+height: 60px;
+}
 .books{
   width: 25%;
   height: 700px;
@@ -34,6 +42,7 @@ body{
   position: relative;
   bottom: 500px;
   left: 15%;
+  display: none;
 }
 
 /* CONTENT TEXT SECTION*/
@@ -63,12 +72,29 @@ overflow-y: auto;
   background: linear-gradient(68deg, rgba(255,255,255,0) 41%, rgba(17,17,17,1) 100%);
 }
 
-
+/* Books */
 .book-icon{
   transform: scale(0.2);
   position:relative;
   right: 49%;
   bottom: 250px;
+  transition: all .2s ease-in-out;
+}
+.book-icon-2{
+  transform: scale(0.2);
+  position:relative;
+  transition: all .2s ease-in-out;
+  bottom:979px;
+  right: 15%;
+}
+
+/* Book icon hovers */
+.book-icon:hover{
+  transform: scale(0.25);
+}
+
+.book-icon-2:hover{
+  transform: scale(0.25);
 }
 .book-cover{
   transform: scale(0.6);
@@ -80,12 +106,17 @@ overflow-y: auto;
   width: 60%;
   position: relative;
   left: 40%;
-
 }
-.page{
+
+/* PAGE SECTION */
+.page-1{
   transform: scale(0.3);
 }
-
+.page-2{
+  transform: scale(0.3);
+  position: relative;
+  right: 8%;
+}
 .pages{
   margin:0;
   padding: 0;
@@ -93,4 +124,5 @@ overflow-y: auto;
   position: relative;
   bottom:65px;
   left: 35%;
+  width: 50%;
 }
